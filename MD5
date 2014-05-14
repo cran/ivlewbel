@@ -1,0 +1,11 @@
+900903b105011c4a4b9038bbd4943dab *DESCRIPTION
+323fdb637c10329af592e5b428283b43 *NAMESPACE
+e9bc090b34072a3d9e0be61820a533cc *R/clusterVCV.R
+2b4a97fc7b0b0a2e7b2bcb909d76caa0 *R/covc.r
+7fea9a570e66e2870264f361950d8234 *R/ftest.R
+cbafed35cf6184f3908e3fe691e1a5d1 *R/gmmcl.R
+e647ee5a11ef9dc8e54845cf50dba97f *R/ivlewbel-internal.R
+a54e55fc8f5430966005a323aa78f89c *R/lewbel.R
+bc5653fc112e8a6c8c5d02871a0345f6 *R/lewbel.est.R
+b39c7e3ee5bffa21bb632ad30be18b99 *R/print.lewbel.model.R
+c719297e3b5e7644b681b68acd9c4b32 *man/lewbel.Rd

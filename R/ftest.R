@@ -37,7 +37,7 @@ ftest <-
     m2 = lm(residuals ~ -1 , data.temp)
     
     if(is.null(clustervar) & robust == FALSE){f1 = waldtest(m1, m2)}
-    if(is.null(clustervar) & robust == TRUE){f1 = waldtest(m1, m2, vcov = vcovHC)}
+    if(is.null(clustervar) & robust == TRUE){f1 = waldtest(m1, m2, vcov = vcovHC(m1, type = "HC0"))}
     if(!is.null(clustervar)){
       data.temp[[clustervar]] = data.new[[clustervar]]
       f1 = waldtest(m1, m2, vcov = clusterVCV(data.temp, m1, cluster1=clustervar))

@@ -19,8 +19,7 @@ function(formula1, formula2, data, cluster){
   Z1 = model.matrix(formula2, dat2)
   
   # step 1
-  gmm1 = gmm(formula1, formula2, data = dat2, 
-             vcov="TrueFixed", weightsMatrix = diag(dim(Z1)[2]))
+  gmm1 = gmm(formula1, formula2, data = dat2, vcov="iid")
   
   # clustering weight matrix
   cluster = factor(dat2[,cluster])

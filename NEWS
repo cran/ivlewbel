@@ -1,0 +1,6 @@
+Changes in Version 1.1
+
+  
+
+o The ROBUST command now uses White's correction for heteroscedasticity.   
+o The estimating function now removes collinear variables. 
